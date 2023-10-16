@@ -18,7 +18,8 @@ def hello_world():  # put application's code here
         'hx': '横线',
         'xhd': '下划线全大写',
     }
-    result = openai_chat(action_dict[action], "提供的中文变量名为：{}".format(text))
+    result = openai_chat(action_dict[action], "变量名：{}".format(text))
+    print(result)
     return result
 
 

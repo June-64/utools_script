@@ -1,5 +1,5 @@
 let timer;
-const base_url = "http://1.12.55.92:5001/translate";
+const base_url = "http://127.0.0.1:5001/translate";
 
 window.exports = {
   xt: {
