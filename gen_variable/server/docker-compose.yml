@@ -1,0 +1,17 @@
+version: '3.6'
+
+services:
+
+  api:
+    build: .
+    restart: always
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./:/app
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+

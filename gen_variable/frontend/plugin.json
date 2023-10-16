@@ -1,0 +1,41 @@
+{
+    "logo": "logo.jpg",
+    "preload": "preload.js",
+    "features": [
+        {
+            "code": "xt",
+            "explain": "小驼峰变量",
+            "cmds": [
+                "XT"
+            ]
+        },
+        {
+            "code": "dt",
+            "explain": "大驼峰变量",
+            "cmds": [
+                "DT"
+            ]
+        },
+        {
+            "code": "xh",
+            "explain": "下划线变量",
+            "cmds": [
+                "XH"
+            ]
+        },
+        {
+            "code": "hx",
+            "explain": "横线变量",
+            "cmds": [
+                "HX"
+            ]
+        },
+        {
+            "code": "xhd",
+            "explain": "下划线大写变量",
+            "cmds": [
+                "XHD"
+            ]
+        }
+    ]
+}
